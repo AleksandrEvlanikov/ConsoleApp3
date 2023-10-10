@@ -1,0 +1,451 @@
+    1  sudo art update
+    2  sudo apt update
+    3  sudo apt install -y build-essential linux-
+    4  sudo apt install -y build-essential linux-headers-$(uname -r)
+    5  subo apt install gcc make perl
+    6  sudo apt install gcc make perl
+    7  sudo reboot
+    8  sudo usermod -aG vboxsf Aleksandr
+    9  sudo apt update
+   10  sudo apt install -y builed-essential linux-headers-$(uname -r)
+   11  sudo apt install -y build-essential linux-headers-$(uname -r)
+   12  sudo apt install gcc make perl
+   13  updete
+   14  yes
+   15  sudo reboot
+   16  sudo apt install -y buld-essential linux-headers-$ S(uname -r)
+   17  sudo apt install -y buld-essential linux-headers-$ (uname -r)
+   18  sudo apt install -y buld-essential linux-headers-$(uname -r)
+   19  sudo apt install -y bulid-essential linux-headers-$(uname -r)
+   20  sudo apt install -y build-essential linux-headers-$(uname -r)
+   21  sudo apt install gcc make perl
+   22  sudo reboot
+   23  cat /etc/group
+   24  sudo usermod -aG vboxsf aleksander
+   25  sudo usermod -aG vboxsf aleksandr
+   26  id
+   27  sudo usermod -aG vboxsf aleksandr
+   28  cat /etc/group
+   29  ip a
+   30  10.0.2.15
+   31  sudo apt install openssh -server
+   32  sudo apt install openssh-server
+   33  ip a
+   34  systemctl status sshd
+   35  ip a
+   36  systemctl status sshd
+   37  ssh localhost
+   38  ip a
+   39  sudo apt install mc
+   40  mc
+   41  ip
+   42  ip a
+   43  cat > file1.txt
+   44  cat > file2.txt
+   45  cat > file1.txt
+   46  clear
+   47  apt --list update
+   48  wget https://dev.mysql.com/get/mysql-apt-config_0.8.19-1_all.deb
+   49  sudo dpkg -i mysql-apt-config_0.8.19-1_all.deb
+   50  sudo apt update
+   51  sudo apt install mysql-server
+   52  sudo dpkg -i package.deb
+   53  dpkg-deb -c package.deb
+   54  find / -name "package.deb"
+   55  sudo dpkg -i package.deb
+   56  cd
+   57  find / -name "package.deb"
+   58  sudo find / -name "package.deb"
+   59  sudo find / -path /run/user -prune -o -name "package.deb" -print
+   60  sudo dpkg -i package.deb
+   61  sudo apt update
+   62  sudo apt install packageName
+   63  apt search mysql
+   64  sudo apt install mysql-server
+   65  apt search example
+   66  sudo add-apt-repository ppa:ondrej/php
+   67  sudo dpkg -i /etc/apt/sources.list.d/ondrej-ubuntu-php-jammy.list
+   68  sudo dpkg -i /etc/apt/sources.list.d/ondrej-ubuntu-php-jammy.list.deb
+   69  cd ~
+   70  cd /home/aleksandr/
+   71  sudo dpkg -i /etc/apt/sources.list.d/ondrej-ubuntu-php-jammy.list.deb
+   72  sudo dpkg -i package.deb
+   73  $ crontab -e
+   74  crontab -e
+   75  sudo add-apt-repository ppa:repositoryName
+   76  sudo add-apt-repository ppa:repositoryName/ppa
+   77  clear
+   78  ip addr show
+   79  sudo nano /etc/netplan/01-static.yaml
+   80  ip addr show
+   81  sudo netplan apply
+   82  ip addr show
+   83  sudo nano /etc/netplan/01-static.yaml
+   84  ip addr show
+   85  sudo netplan apply
+   86  sudo nano /etc/netplan/01-static.yaml
+   87  sudo netplan apply
+   88  default via 192.168.0.1 dev enp0s3 proto dhcp metric 100
+   89  defaults via 192.168.0.1 dev enp0s3 proto dhcp metric 100
+   90  sudo nano /etc/netplan/01-static.yaml
+   91  sudo netplan apply
+   92  sudo nano /etc/netplan/01-static.yaml
+   93  sudo netplan apply
+   94  sudo nano /etc/netplan/01-static.yaml
+   95  sudo netplan apply
+   96  ip a
+   97  ip addr show enp0s3
+   98  sudo iptables -P INPUT DROP
+   99  sudo apt install nginx
+  100  sudo systemctl status nginx
+  101  sudo apt install php-fpm php-mysql
+  102  sudo nano /etc/nginx/sites-available/mysite.conf
+  103  sudo ln -s /etc/nginx/sites-available/mysite.conf /etc/nginx/sites-enabled/
+  104  sudo nginx -t
+  105  sudo systemctl restart nginx
+  106  sudo systemctl start apache2
+  107  sudo apt update
+  108  sudo apt install apache2
+  109  sudo systemctl status apache2
+  110  sudo apt install php libapache2-mod-php php-mysql
+  111  sudo nano /etc/apache2/mods-enabled/dir.conf
+  112  sudo systemctl restart apache2
+  113  sudo nano /etc/nginx/sites-available/default
+  114  sudo systemctl restart nginx
+  115  sudo nano /etc/nginx/sites-available/default
+  116  sudo systemctl restart nginx
+  117  systemctl status nginx.service
+  118  journalctl -xeu nginx.service
+  119  sudo nano /etc/nginx/nginx.conf
+  120  sudo vim /etc/nginx/nginx.conf
+  121  systemctl status nginx.service
+  122  sudo vim /etc/nginx/nginx.conf
+  123  sudo nano /etc/nginx/nginx.conf
+  124  sudo nano /etc/nginx/sites-available/default
+  125  sudo nginx -t
+  126  clear
+  127  sudo nginx -t
+  128  sudo systemctl restart nginx
+  129  sudo apt install nginx
+  130  sudo apt install php-fpm
+  131  /etc/php/<version>/fpm/pool.d/www.conf
+  132  nano /etc/php/<version>/fpm/pool.d/www.conf
+  133  sudo apt install apache2
+  134  sudo apt update
+  135  sudo apt install apache2
+  136  sudo apt install libapache2-mod-php
+  137  nano /etc/apache2/apache2.conf
+  138  /etc/apache2/sites-available/000-default.conf
+  139  nano /etc/apache2/sites-available/000-default.conf
+  140  nano /etc/apache2/apache2.conf
+  141  /etc/apache2/apache2.conf
+  142  nano /etc/apache2/apache2.conf
+  143  sudo chown -R www-data:www-data /var/www
+  144  sudo chmod -R 755 /var/www
+  145  sudo chcon -R -t httpd_sys_content_t /var/www
+  146  sudo restorecon -R /var/www
+  147  sudo chown -R www-data:www-data /var/www
+  148  sudo chmod -R 755 /var/www
+  149  sudo service nginx restart
+  150  sudo service apache2 restart
+  151  systemctl status nginx.service
+  152  nano /etc/nginx/nginx.conf
+  153  sudo nano /etc/nginx/conf.d/default.conf
+  154  sudo nano /etc/nginx/sites-available/default
+  155  sudo nginx -t
+  156  sudo nano /etc/nginx/sites-available/default
+  157  sudo nginx -t
+  158  sudo nano /etc/nginx/sites-available/default
+  159  sudo nginx -t
+  160  sudo nano /etc/nginx/sites-available/default
+  161  sudo nginx -t
+  162  sudo nano /etc/nginx/nginx.conf
+  163  sudo nginx -t
+  164  sudo systemctl restart nginx
+  165  systemctl status nginx.service
+  166  sudo lsof -i :80
+  167  sudo systemctl stop apache2
+  168  sudo nano /etc/apache2/apache2.conf
+  169  sudo systemctl status apache2
+  170  sudo nginx -tsudo nginx -t
+  171  sudo nginx -t
+  172  sudo netstat -tuln | grep 80
+  173  sudo ss -tuln | grep 80
+  174  /etc/nginx/nginx.conf
+  175  sudo /etc/nginx/nginx.conf
+  176  sudo nano /etc/nginx/nginx.conf
+  177  sudo systemctl restart nginx
+  178  sudo netstat -tuln | grep 8080
+  179  sudo ss -tuln | grep 8080
+  180  sudo apt-get update
+  181  sudo apt-get install mysql-server
+  182  CREATE DATABASE mydatabase;
+  183  mysql -u root -p
+  184  sudo mysql
+  185  mysql -u root -p
+  186  sudo apt update
+  187  sudo apt install phpmyadmin
+  188  dpkg -l | grep phpmyadmin
+  189  sudo systemctl status apache2
+  190  Include /etc/phpmyadmin/apache.conf
+  191  sudo systemctl restart apache2
+  192  sudo nano /etc/apache2/apache2.conf
+  193  sudo systemctl restart apache2
+  194  sudo apt install nginx
+  195  sudo apt update
+  196  sudo apt install nginx
+  197  sudo nano /etc/nginx/nginx.conf
+  198  ifconfig
+  199  ip addr show
+  200  sudo nano /etc/nginx/nginx.conf
+  201  sudo systemctl restart nginx
+  202  sudo systemctl status apache2
+  203  sudo nano /etc/nginx/sites-available/default
+  204  sudo systemctl status apache2
+  205  sudo systemctl status nginx
+  206  sudo nano /etc/nginx/sites-available/default
+  207  clear
+  208  sudo service nginx start
+  209  sudo service apache2 start
+  210  sudo info ngix
+  211  sudo nginx -t
+  212  sudo nano /etc/nginx/nginx.conf
+  213  sudo systemctl status apache2
+  214  sudo systemctl status nginx
+  215  sudo nano /var/www/html
+  216  sudo systemctl status nginx
+  217  sudo nano /var/www/html
+  218  sudo nano /var/www/html/index.php
+  219  sudo apt-get install php libapache2-mod-php
+  220  sudo a2enmod php
+  221  sudo apt-get install php libapache2-mod-php
+  222  sudo a2enmod php7.4
+  223  sudo a2enmod php8.2
+  224  sudo nano /var/www/html/index1.php
+  225  sudo apt install smbclient
+  226  clear
+  227  curl ifconfig.me
+  228  sudo apt install curl
+  229  curl ifconfig.me
+  230  sudo apt update
+  231  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+  232  curl -fsSL https://download.docker.com/linux/ubuntu/gpg
+  233  sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+  234  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+  235  echo "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  236  apt
+  237  sudo apt update
+  238  sudo apt install docker-ce docker-ce-cli containerd.io
+  239  sudo usermod -aG docker $USER
+  240  nano docker-compose.yml
+  241  docker-compose up -d
+  242  nano docker-compose.yml
+  243  docker-compose up -d
+  244  sudo docker-compose up -d
+  245  sudo usermod -aG docker aleksandr
+  246  sudo docker-compose up -d
+  247  exit
+  248  sudo docker-compose up -d
+  249  [200~docker stop aleksandr-db-1
+  250  doker stop aleksandr-db-1
+  251  docker stop aleksandr-db-1
+  252  sudo docker-compose up -d
+  253  sudo docker-compose down --volumes
+  254  groups
+  255  sudo docker-compose down -v
+  256  docker-compose down
+  257  docker stop aleksandr-db-1
+  258  sudo apt update
+  259  sudo apt install torbrowser-launcher
+  260  torbrowser-launcher
+  261  torbrowser-launcher --version
+  262  apt show torbrowser-launcher
+  263  sudo apt updat
+  264  sudo apt update
+  265  sudo apt upgrade torbrowser-launcher
+  266  torbrowser-launcher
+  267  [200~./start-tor-browser.desktop
+  268  ./start-tor-browser.desktop
+  269  ip a
+  270  mkdir newroot
+  271  ls -l
+  272  sudo chroot newroot bash
+  273  mkdir newroot/bin
+  274  cp /bin/bash newroot/bin/
+  275  ldd /bin/bash
+  276  mkdir newroot/lib
+  277  mkdir newroot/lib64
+  278  cp /lib/x86_64-linux-gnu/libtinfo.so.6 newroot/lib/
+  279  cp /lib/x86_64-linux-gnu/libc.so.6 newroot/lib/
+  280  cp /lib64/ld-linux-x86-64.so.2 newroot/lib/
+  281  sudo chroot newroot /bin/bash
+  282  sudo chroot newroot /bin/bash/
+  283  ls -l
+  284  sudo chroot newroot /bin/bash/
+  285  cp /bin/bash newroot/bin/
+  286  sudo chroot newroot /bin/bash/
+  287  cp /bin/bash newroot/bin/
+  288  sudo chroot newroot /bin/bash/
+  289  sudo chroot newroot /bin/bash
+  290  rm -r newroot
+  291  mkdir newroot
+  292  mkdir newroot/bin
+  293  mkdir newroot/lib
+  294  mkdir newroot/lib64
+  295  cp /bin/bash newroot/bin/
+  296  cp /lib/x86_64-linux-gnu/libtinfo.so.6 newroot/lib/
+  297  cp /lib/x86_64-linux-gnu/libc.so.6 newroot/lib/
+  298  cp /lib64/ld-linux-x86-64.so.2 newroot/lib/
+  299  sudo chroot newroot /bin/bash
+  300  mkdir newroot
+  301  sudo cp /bin/bash newroot/
+  302  sudo cp /lib/x86_64-linux-gnu/libtinfo.so.6 newroot/
+  303  sudo cp /lib/x86_64-linux-gnu/libc.so.6 newroot/
+  304  sudo chroot newroot /bash
+  305  sudo chroot newroot
+  306  sudo ln -s /bin/bash newroot/bash
+  307  sudo chroot newroot /bin/bash
+  308  sudo mount --bind /dev newroot/dev
+  309  sudo mount --bind /proc newroot/proc
+  310  sudo mount --bind /sys newroot/sys
+  311  sudo chroot newroot
+  312  exit
+  313  sudo ip link add veth0 type veth peer name veth1
+  314  ip a
+  315  sudo ip link set veth1 netns testnc123
+  316  sudo ip link set veth1 netns testns123
+  317  ip a
+  318  sudo ip addr add 10.0.0.1/24 dev veth0
+  319  sudo ip link set dev veth0 up
+  320  ip a
+  321  mrdit -r newroot
+  322  mkdir -r newroot
+  323  rm -r newroot
+  324  mkdir newroot
+  325  rm -r newroot
+  326  mkdir newroot
+  327  mkdir newroot/bin
+  328  mkdir newroot/lib
+  329  mkdir newroot/lib64
+  330  cp /bin/bash newroot/bin/
+  331  ldd /bin/bash
+  332  cp /lib/x86_64-linux-gnu/libtinfo.so.6 newroot/lib/
+  333  cp /lib/x86_64-linux-gnu/libc.so.6 newroot/lib/
+  334  cp /lib64/ld-linux-x86-64.so.2 newroot/lib64/
+  335  cp /bin/bash newroot/bin/
+  336  sudo chroot newroot /bin/bash
+  337  whereis ls
+  338  mkdir newroot/usr
+  339  mkdir newroot/usr/bin
+  340  cp /usr/bin/ls newroot/usr/bin/
+  341  ldd /usr/bin/ls
+  342  cp /lib/x86_64-linux-gnu/libselinux.so.1 newroot/lib/
+  343  cp /lib/x86_64-linux-gnu/libc.so.6 newroot/lib/
+  344  cp /lib/x86_64-linux-gnu/libpcre2-8.so.0 newroot/lib/
+  345  cp /lib64/ld-linux-x86-64.so.2 newroot/lib64/
+  346  sudo chroot newroot /bin/bash
+  347  ip a
+  348  sudo ip netns add testns123
+  349  sudo ip netns exec testns123 bash
+  350  cd /proc/$$/ns
+  351  ls -l
+  352  sudo unshare --pid --net --fork --mount-proc /bin/bash
+  353  sudo apt-get update
+  354  sudo apt-get install lxc
+  355  sudo lxc-create -n my-container -t download -- --dist ubuntu --release focal --arch amd64
+  356  sudo lxc-start -n my-container
+  357  sudo lxc-cgroup -n my-container memory.limit_in_bytes 256M
+  358  sudo lxc-info -n my-container
+  359  sudo nano /etc/default/grub
+  360  sudo update-grub
+  361  sudo reboot
+  362  mrdir mydb
+  363  sudo mkdir mydb
+  364  cdmydb/
+  365  cd mydb/
+  366  pwd
+  367  exit
+  368  clean
+  369  clear
+  370  cat pets
+  371  cat > "Домашние животные" <<EOF
+  372  Собаки:
+  373  1. Рекс
+  374  2. Белка
+  375  3. Лайка
+  376  Кошки:
+  377  1. Мурка
+  378  2. Том
+  379  3. Васька
+  380  Хомяки:
+  381  1. Чубайс
+  382  2. Шарик
+  383  3. Буся
+  384  EOF
+  385  cat > "Домашние животные" <<EOF
+  386  Собаки:
+  387  1. Рекс
+  388  2. Белка
+  389  3. Лайка
+  390  Кошки:
+  391  1. Пушистик
+  392  2. Том
+  393  3. Черныш
+  394  Хомяки:
+  395  1. Нюська
+  396  2. Шарик
+  397  3. Буся
+  398  EOF
+  399  cat > "Вьючные животные" <<EOF
+  400  Лошади:
+  401  1. Буран
+  402  2. Снежка
+  403  3. Гроза
+  404  Верблюды:
+  405  1. Алибаба
+  406  2. Альпака
+  407  3. Саид
+  408  Ослы:
+  409  1. Гром
+  410  2. Молния
+  411  3. Пончик
+  412  EOF
+  413  cat "Домашние животные" "Вьючные животные" > "Друзья человека"
+  414  cat "Друзья человека"
+  415  mkdir Друзья
+  416  ls
+  417  mv "Друзья человека" Друзья/
+  418  ls
+  419  mv "Домашние животные" Друзья/
+  420  ls
+  421  mv "Вьючные животные" Друзья/
+  422  ls
+  423  sudo apt-get update
+  424  sudo apt-get install software-properties-common
+  425  sudo add-apt-repository 'deb http://archive.ubuntu.com/ubuntu bionic universe'
+  426  sudo add-apt-repository 'deb http://archive.ubuntu.com/ubuntu bionic-updates universe'
+  427  sudo add-apt-repository 'deb http://archive.ubuntu.com/ubuntu bionic-security universe'
+  428  sudo apt-get update
+  429  sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 3B4FE6ACC0B21F32
+  430  sudo gpg --keyserver keyserver.ubuntu.com --recv-keys 3B4FE6ACC0B21F32
+  431  sudo gpg --export --armor 3B4FE6ACC0B21F32 | sudo apt-key add -
+  432  sudo apt-get update
+  433  sudo apt-get install mysql-server
+  434  li
+  435  ls
+  436  cm "Друзья"
+  437  cv "Друзья"
+  438  cm "Друзья"
+  439  cd "Друзья"
+  440  ls
+  441  sudo dpkg -i package.deb
+  442  cd
+  443  wget http://archive.ubuntu.com/ubuntu/pool/universe/h/htop/htop_2.2.0-1build1_amd64.deb
+  444  sudo dpkg -i htop_2.2.0-1build1_amd64.deb
+  445  wget http://archive.ubuntu.com/ubuntu/pool/universe/h/htop/htop_2.2.0-1build1_amd64.deb
+  446  sudo dpkg -i htop_2.2.0-1build1_amd64.deb
+  447  wget http://mirrors.kernel.org/ubuntu/pool/universe/h/htop/htop_3.1.1-0.1build1_amd64.deb
+  448  sudo dpkg -i htop_3.1.1-0.1build1_amd64.deb
+  449  sudo apt-get install htop
+  450  sudo apt-get remove htop
+  451  history > command_history.txt
